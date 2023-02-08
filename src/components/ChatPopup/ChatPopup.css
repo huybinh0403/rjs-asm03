@@ -1,0 +1,74 @@
+.chatPopup_icon {
+  position: fixed;
+  bottom: 5rem;
+  right: 3rem;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #ced4da;
+  color: #017eff;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chatPopup_modal {
+  /* display: flex; */
+  position: fixed;
+  bottom: 5.5rem;
+  right: 6rem;
+  width: 20rem;
+  background-color: white;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 4;
+}
+
+.chatModal_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1.25rem;
+  border-bottom: 0.5px solid #dee2e6;
+  /* margin: 0 0.5rem; */
+}
+
+.chatModal_title h5 {
+  margin: 0;
+}
+
+.chatModal_title button {
+  font-size: 0.7rem;
+  font-style: italic;
+  color: gray;
+  border: none;
+}
+
+.chatModal_messagesField {
+  height: 15rem;
+}
+
+.chatModal_inputField {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-top: 0.5px solid #dee2e6;
+  padding: 0.5rem 0.5rem 0 1rem;
+  font-size: 1.25rem;
+}
+
+.chatModal_inputField input {
+  font-size: 0.9rem;
+  border: none;
+  padding: 0.25rem;
+}
+
+.chatModal_inputField input::placeholder {
+  opacity: 0.6;
+}
+
+.chatModal_send {
+  color: #017eff;
+}

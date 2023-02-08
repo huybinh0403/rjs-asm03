@@ -1,0 +1,29 @@
+.trendingProductsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.trendingProductsItem_img {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.trendingProductsItem_img:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+.trendingProductsItem p {
+  margin: 0.2rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.trendingProductsItem_price {
+  font-size: 0.9rem;
+  color: #adb5bd;
+}

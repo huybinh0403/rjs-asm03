@@ -1,0 +1,67 @@
+.otherInfo_container {
+  margin: 2rem 10rem;
+  font-style: italic;
+}
+
+.otherInfo_service {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f1f3f5;
+  padding: 3rem 0;
+}
+
+.otherInfo_container h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+}
+
+.otherInfo_container p {
+  margin: 0;
+  font-size: 1rem;
+  color: #868e96;
+}
+
+.otherInfo_contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.otherInfo_contact_text {
+  text-align: start;
+}
+
+.otherInfo_form {
+  width: 65%;
+  text-align: right;
+}
+
+.otherInfo_form input {
+  width: 50%;
+  padding: 1rem 0.75rem;
+  border: 1px solid #adb5bd;
+}
+
+.otherInfo_form input::placeholder {
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+
+.otherInfo_form button {
+  padding: 1rem 1.25rem;
+  font-weight: 700;
+  color: #e9ecef;
+  background-color: #212529;
+  cursor: pointer;
+  border: 1px solid #212529;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px, rgba(0, 0, 0, 0.24) 0px 2px 3px;
+}
+
+.otherInfo_form button:hover {
+  background-color: #e9ecef;
+  color: black;
+  transition: 0.3s ease-in;
+}

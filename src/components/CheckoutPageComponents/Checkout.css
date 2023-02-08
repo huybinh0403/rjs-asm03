@@ -1,0 +1,118 @@
+.checkout {
+  margin: 2rem 10rem;
+  font-style: italic;
+}
+
+.checkout_title {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.checkout_container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2rem;
+}
+/* -----------CHECKOUT FORM------------------ */
+.checkout_form {
+  /* background-color: aqua; */
+  padding: 2rem 0;
+  text-align: left;
+}
+
+.checkout_form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.checkout_formInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.checkout_formInput label {
+  font-weight: 400;
+  color: gray;
+}
+
+.checkout_formInput input {
+  width: 35rem;
+  padding: 0.75rem;
+  border: 1.5px solid #adb5bd;
+  border-radius: 5px;
+}
+
+.checkout_formInput input::placeholder {
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+
+.btn_order {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #adb5bd;
+  background-color: #212529;
+  cursor: pointer;
+  border: 1px solid #212529;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px, rgba(0, 0, 0, 0.24) 0px 2px 3px;
+}
+
+.btn_order:hover {
+  background-color: #e9ecef;
+  color: black;
+  transition: 0.3s ease-in;
+}
+
+/* -----------YOUR ORDER------------------ */
+.checkout_yourOrder {
+  background-color: #f1f3f5;
+  height: fit-content;
+  padding: 2rem 3rem;
+}
+
+.checkout_yourOrder h3 {
+  margin: 0.5rem 0 1.5rem 0;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.yourOrder_cartItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  border-bottom: 1px solid #adb5bd;
+  justify-items: self-end;
+}
+
+.yourOrder_cartItem h4 {
+  margin: 0.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.yourOrder_cartItem_detail {
+  display: flex;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  color: #adb5bd;
+}
+
+.yourOrder_total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.yourOrder_total_price {
+  color: #495057;
+}

@@ -1,0 +1,32 @@
+.categories {
+  font-style: italic;
+  text-align: left;
+}
+
+.categories h3 {
+  margin: 0 0 0.5rem 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.categories_item h4 {
+  margin: 0 0 0.5rem 0;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+.apple {
+  color: #e9ecef;
+  background-color: #212529;
+}
+
+.categories_item_title {
+  background-color: #f1f3f5;
+}
+
+.categories_item p {
+  margin: 0 0 0.25rem 0;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}

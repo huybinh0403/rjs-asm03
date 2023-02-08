@@ -1,0 +1,44 @@
+.ourCategories_container {
+  margin: 1rem 10rem;
+}
+
+.ourCategories_text {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.ourCategories_text h3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 0;
+  color: #868e96;
+}
+
+.ourCategories_text h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.ourCategories_image_row1 {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ourCategories_image_row2 {
+  display: flex;
+  gap: 1rem;
+}
+
+.ourCategories_image img {
+  width: 100%;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.ourCategories_image img:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+}

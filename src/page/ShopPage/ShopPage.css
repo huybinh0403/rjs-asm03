@@ -1,0 +1,27 @@
+.shop_banner {
+  margin: 2rem 10rem;
+  padding: 2.5rem 5rem;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f3f5;
+}
+
+.shop_banner h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.shop_banner h3 {
+  color: #868e96;
+}
+
+.shop_container {
+  margin: 2rem 10rem;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: flex-start;
+  gap: 1rem;
+  /* background-color: aqua; */
+}

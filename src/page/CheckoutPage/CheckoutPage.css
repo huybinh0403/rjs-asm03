@@ -1,0 +1,27 @@
+.checkoutPage_banner {
+  margin: 2rem 10rem;
+  padding: 2.5rem 5rem;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f3f5;
+}
+
+.checkoutPage_banner h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.checkoutPage_banner h3 {
+  font-weight: 400;
+}
+
+.checkoutPage_link {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.checkoutPage_checkout {
+  color: #868e96;
+}

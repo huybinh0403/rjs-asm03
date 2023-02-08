@@ -1,0 +1,22 @@
+.productItem_img {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.productItem_img:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+.productItem_container p {
+  margin: 0.2rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.productItem_price {
+  font-size: 0.9rem;
+  color: #adb5bd;
+}

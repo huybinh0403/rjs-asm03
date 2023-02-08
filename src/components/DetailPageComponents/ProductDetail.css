@@ -1,0 +1,182 @@
+.productDetail_container {
+  margin: 2rem 10rem;
+}
+
+.productDetail_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+/* STYLE PHẦN HÌNH ẢNH */
+.productDetail_img {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 0.5rem;
+}
+
+.productDetail_img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.smaill_img {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.large_img {
+  margin-top: 0.25rem;
+}
+/* --------------------------------- */
+.productDetail_container_text {
+  text-align: left;
+  font-style: italic;
+}
+
+.productDetail_container_text h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.productDetail_container_text h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0.5rem 0;
+  color: #adb5bd;
+}
+
+.productDetail_short_desc {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #adb5bd;
+}
+
+.title_category {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.text_catergory {
+  color: #adb5bd;
+}
+
+.productDetail_quantity {
+  margin-top: 1rem;
+  display: flex;
+  /* gap: 0.2rem; */
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.productDetail_btn_quantity {
+  font-style: italic;
+  padding: 0.5rem 1rem;
+  color: #adb5bd;
+  border: 0.5px solid #adb5bd;
+  background-color: white;
+  margin: 0.25rem;
+}
+
+.productDetail_btn_cart {
+  font-style: italic;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  color: #e9ecef;
+  background-color: #212529;
+  cursor: pointer;
+  border: 1px solid #212529;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 2px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-left: 0.25rem;
+}
+
+.productDetail_btn_cart:hover {
+  background-color: #e9ecef;
+  color: black;
+  transition: 0.3s ease-in;
+}
+
+.productDetail_btn_action {
+  background-color: white;
+  border: 0.5px solid #adb5bd;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+/* --------------------------------- */
+/* Style phần description */
+.productDetail_desc {
+  margin: 2rem 10rem;
+  text-align: left;
+  font-style: italic;
+}
+
+.productDetail_desc button {
+  font-style: italic;
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  color: #e9ecef;
+  background-color: #212529;
+  cursor: pointer;
+  border: 1px solid #212529;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 2px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.productDetail_desc button:hover {
+  background-color: #e9ecef;
+  color: black;
+  transition: 0.3s ease-in;
+}
+
+.productDetail_desc h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.productDetail_desc_content p {
+  font-size: 1rem;
+  color: #adb5bd;
+  margin: 0.2rem;
+}
+/* --------------------------------- */
+/* Style phần RELATED PRODUCT */
+.related_products {
+  margin: 2rem 10rem;
+  font-style: italic;
+}
+
+.related_products h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.related_products_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.related_products_item img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.related_products_item img:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+.related_products_item p {
+  margin: 0.2rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.related_products_item_price {
+  font-size: 0.9rem;
+  color: #adb5bd;
+}
